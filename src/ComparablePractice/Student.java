@@ -12,7 +12,6 @@ public class Student implements Comparable<Student>{
         this.id = id;
     }
 
-
     @Override
     public int compareTo(Student st) {
         if(age ==st.age){

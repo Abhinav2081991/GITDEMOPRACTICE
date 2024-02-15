@@ -15,6 +15,10 @@ public class SortMap{
         map.put("John", 6);
         map.put("Alex", 9);
 
+//sort using Streams.
+HashMap<String,Integer> sortedMap1 = map.entrySet().stream().sorted(Map.Entry.comparingByValue()).
+                collect(Collectors.toMap(Map.Entry::getKey,Map.Entry::getValue, (e1, e2)-> e2, LinkedHashMap::new));
+
         //sort by Keys.
         TreeMap<String, Integer> tm = new TreeMap<>(map);
         System.out.println(tm);

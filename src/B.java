@@ -1,3 +1,5 @@
+import java.io.IOException;
+
 public class B extends A {
 
 
@@ -7,7 +9,7 @@ public class B extends A {
 
     public int  integer =  20;
 
-    public void print(){
+    public void print()   {
         System.out.println("B");
     }
 

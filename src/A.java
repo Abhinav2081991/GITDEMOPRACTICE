@@ -1,3 +1,5 @@
+import java.io.IOException;
+
 public class A {
 
 
@@ -8,7 +10,7 @@ public class A {
 
     public int  integer =  10;
 
-    public void print(){
+    public void print()  {
         System.out.println("A");
     }
 

@@ -19,8 +19,10 @@ public class CompareTwoLists {
         list2.add("Abhinav");
         list2.add("Abhinav1");
         list2.add("Abhina2");
-        list2.add("Abhinav3");
         list2.add("Abhina4");
+        list2.add("Abhinav3");
+
+        System.out.println(list1.equals(list2));
 
 
 
