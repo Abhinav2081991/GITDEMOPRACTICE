@@ -13,4 +13,8 @@ public class B extends A {
         System.out.println("B");
     }
 
+    public void show(int n){
+        System.out.println(n);
+    }
+
 }

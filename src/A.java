@@ -14,4 +14,8 @@ public class A {
         System.out.println("A");
     }
 
+    public void show(String s){
+        System.out.println(s);
+    }
+
 }

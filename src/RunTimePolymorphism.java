@@ -19,6 +19,7 @@ public class RunTimePolymorphism {
          a1.print();  // this will print B
         System.out.println("a1-----"+a1.integer);
 
+
          //B b1  =  new A();  // Compile time error
          // Reference variable of child class cannot call object of parent class
 
