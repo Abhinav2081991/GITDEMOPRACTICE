@@ -8,7 +8,7 @@ public class MaxSubstring {
 
 
             String Test  = "Change. -- Branch1 -- Test";
-            
+                
             String longestSubString = null;
 
 
