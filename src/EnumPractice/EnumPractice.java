@@ -22,7 +22,7 @@ public class EnumPractice {
             enumMap.put(Days.Friday, "Weekend0");
             enumMap.put(Days.Sunday, "Weekend2");
             enumMap.put(Days.Monday, null);
-            
+
         System.out.println(enumMap);
 
     }
