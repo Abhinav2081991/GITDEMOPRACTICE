@@ -1,4 +1,4 @@
-package StringPrograms;
+package StringPracticePackage;
 
 import java.sql.*;
 import java.util.*;
@@ -20,6 +20,21 @@ public class StringReversePractice {
         reverseWord("Abhinav Tiwari is a very good programmer");
 
 //        reverseWord2("Abhinav Tiwari is a very good programmer");
+
+
+        String s1 = new String("digitalocean");
+        String s2 = new String("DIGITALOCEAN");
+        System.out.println(s1 = s2); /// this will print DIGITALOCEAN
+
+        foo(null);
+
+    }
+
+    public static void foo(Object o) {
+        System.out.println("Object argument");
+    }
+    public static void foo(String s) {
+        System.out.println("String argument");
     }
 
 

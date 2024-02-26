@@ -1,4 +1,4 @@
-package StringPrograms;
+package StringPracticePackage;
 
 public class MaxSubstring {
 
