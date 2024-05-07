@@ -12,6 +12,8 @@ public class Intpractice {
 
             Character.getNumericValue(str.charAt(i));
 
+
+
         }
 
 

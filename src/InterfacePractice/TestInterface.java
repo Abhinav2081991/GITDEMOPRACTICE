@@ -14,4 +14,8 @@ public interface TestInterface {
     }
 
 
+    public default void test1(){
+        System.out.println("test");
+    }
+
 }

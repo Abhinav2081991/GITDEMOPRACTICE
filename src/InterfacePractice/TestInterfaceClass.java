@@ -13,5 +13,6 @@ public class TestInterfaceClass implements TestInterface{
         t.testWIthBody();
         t.test();
          TestInterface.testStaticMethodWithBody();
+         t.test1();
     }
 }

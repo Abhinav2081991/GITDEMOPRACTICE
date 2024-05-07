@@ -1,7 +1,10 @@
 package Maps;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
 import java.util.TreeMap;
+import java.util.stream.Collectors;
 
 public class TestMap {
 
@@ -20,14 +23,19 @@ public class TestMap {
         // Output - {1=null, 2=null, 3=null, 4=null, 5=null, 6=null}
 
         TreeMap<Integer, String> treemap = new TreeMap<Integer, String>();
-        treemap.put(1, null);
-        treemap.put(2, null);
-        treemap.put(3, null);
-        treemap.put(4, null);
-        treemap.put(5, null);
-        treemap.put(6, null);
+        treemap.put(1, "Abhi");
+        treemap.put(2, "null");
+        treemap.put(3, "ab");
+        treemap.put(4, "hh");
+        treemap.put(5, "as");
+        treemap.put(6, "asd");
 
         System.out.println(treemap);
+
+
+        System.out.println(treemap.entrySet()
+                .stream()
+                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue)));
 
 
 

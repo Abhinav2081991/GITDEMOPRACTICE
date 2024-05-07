@@ -19,6 +19,12 @@ public class ReverseLinkedList {
 
         System.out.println(list);
 
+        list.removeIf(s -> s.contains("Man"));
+
+        System.out.println(list.contains("Abhinav"));
+
+        System.out.println(list);
+
         Collections.sort(list);
 
         System.out.println(list);
